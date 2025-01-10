@@ -1,0 +1,310 @@
+nav{
+    background-color: #1e453e;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav ul{
+    width: auto;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+nav a:hover{
+    background-color: #306844;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+
+#easteregg{
+    background-color: inherit;
+    color:#1e453e;
+}
+
+#easteregg:hover{
+    background-color: goldenrod !important;
+    color:white !important;
+    transition: 1.25s ease !important;
+}
+.sidebar{
+    color: white;
+    display: none;
+    position: fixed;
+    top: -18px;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: #1e453e;
+    list-style: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.sidebar li{
+    width: 100%;
+    display: flex;
+    padding-top: 10px;
+}
+.sidebar a{
+    width: 100%;
+    display: flex;
+    color: white;
+    font-size: larger;
+}
+.menu-button{
+    display: none;
+}
+/* ###################################################################### */
+.accessibility_options {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 60px;
+    height: 60px;
+    background-color: #fff !important;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1000;
+    transition: transform 0.2s, background-color 0.2s;
+    border: solid 2px black;
+
+}
+.accessibility_options:hover {
+    background-color: #fff;
+    transform: scale(1.5);
+    border: solid 2px black;
+
+}
+
+.accessibility_menu{
+    position: fixed;
+    bottom: 80px;
+    right: 25px;
+    z-index: 999;
+    padding: 15px;
+    min-width: 150px;
+    font-size: xx-large;
+    background-color: #fff;
+    border-radius: 5px;
+    line-height: 3.25rem;
+    display: none;
+    flex-direction: column;
+}
+.accessibility_menu li{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    list-style: none;
+}
+.accessibility_menu li a{
+    display: flex;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+.accessibility_menu li a:hover{
+    transition: color 0.25s ease;
+    background-color: black;
+    color: white;
+}
+
+
+/* The html elements get the .high-contrast class, once the option is toggled, here i am styling them*/
+.high-contrast a,
+.high-contrast p,
+.high-contrast h2,
+.high-contrast ul,
+.high-contrast li,
+.high-contrast .grid_column,
+.high-contrast .formular_shop,
+.high-contrast .grid_box_shop,
+.high-contrast .grid_row_element{
+    background-color: black !important;
+    color: white !important;
+}
+
+.high-contrast .nav,
+.high-contrast #h2box,
+.high-contrast .footer,
+.high-contrast .sidebar,
+.high-contrast .navigation,
+.high-contrast .grid_column,
+.high-contrast .grid_box_shop,
+.high-contrast .formular_shop,
+.high-contrast .grid_row_element{
+    border: solid 2px white !important;
+}
+.high-contrast .formular_shop input,
+.high-contrast .formular_shop select {
+    background-color: white !important;
+    color: black;
+}
+
+
+
+
+.bigger-text {
+    font-size: 1.5em;
+}
+
+
+/* ###################################################################### */
+.footer{
+    position: initial;
+    bottom: 0;
+    left: 0;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+
+    margin-top: 20px;
+    margin-left: -35px;
+    padding-left:10px;
+    min-width:100vw;
+    min-height: 25vh;
+}
+
+.footer ul {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+}
+
+.footer li{
+    display: inline-block;
+}
+.footer li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.footer p {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer ul li a {
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    transition: color 0.25s ease-in-out;
+    color: #c1ff00;
+}
+
+.copyright{
+    color: white;
+}
+.copyright h4:hover{
+    background: radial-gradient(circle at center, rgb(193, 255, 0) 0%, rgb(255, 0, 251) 100%);
+    background-clip: text;
+    color: transparent;
+    animation: pulse 10s infinite;
+    background-size: 200% 150%;
+}
+@keyframes pulse {
+    0%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 100% 100%;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}
+
+
+@media(max-width: 650px){
+    .hide_on_mobile{
+        display: none;
+    }
+    .navigation{
+        padding: 0;
+    }
+}
+@media(max-width: 400px){
+    .sidebar{
+        width: 100%;
+    }
+}
+
+
+
+.modal{
+    background-color:white ;
+    font-family: Verdana,sans-serif;
+    padding: 5%;
+    border-radius: 15px;
+    border: 1px solid aqua;
+
+    position: fixed;
+    max-width: 33%;
+    max-height: 80%;
+    left: 33%;
+    right:33%;
+    top: 10%;
+    bottom: 10%;
+
+
+
+    display: none;
+    z-index: 998;
+    overflow: scroll;
+
+
+}
+.modal p{
+    color: black;
+    text-align: justify;
+    max-height: 100%;
+}
+
+@media(max-width: 1115px){
+    .modal{
+        max-width: 80%;
+        max-height: 90%;
+        left:10%;
+        right:10%;
+        top:5%;
+        bottom:5%;
+    }
+}
+.modal button{
+    color: white;
+    background-color: black;
+    border-radius:5px;
+    padding:10px;
+
+}

@@ -1,0 +1,55 @@
+/* Orbitron Regular */
+@font-face {
+  font-family: 'Orbitron';
+  src: url('../fonts/orbitron/static/Orbitron-Regular.ttf') format('truetype');
+  font-weight: 400; /* Normal weight */
+  font-style: normal;
+}
+
+/* Orbitron Bold */
+@font-face {
+  font-family: 'Orbitron';
+  src: url('../fonts/orbitron/static/Orbitron-Bold.ttf') format('truetype');
+  font-weight: 700; /* Bold weight */
+  font-style: normal;
+}
+
+/* Orbitron ExtraBold */
+@font-face {
+  font-family: 'Orbitron';
+  src: url('../fonts/orbitron/static/Orbitron-ExtraBold.ttf') format('truetype');
+  font-weight: 800; /* Extra bold weight */
+  font-style: normal;
+}
+
+/* Orbitron Black */
+@font-face {
+  font-family: 'Orbitron';
+  src: url('../fonts/orbitron/static/Orbitron-Black.ttf') format('truetype');
+  font-weight: 900; /* Black weight */
+  font-style: normal;
+}
+
+/* Orbitron Medium */
+@font-face {
+  font-family: 'Orbitron';
+  src: url('../fonts/orbitron/static/Orbitron-Medium.ttf') format('truetype');
+  font-weight: 500; /* Medium weight */
+  font-style: normal;
+}
+
+/* Orbitron SemiBold */
+@font-face {
+  font-family: 'Orbitron';
+  src: url('../fonts/orbitron/static/Orbitron-SemiBold.ttf') format('truetype');
+  font-weight: 600; /* Semi-bold weight */
+  font-style: normal;
+}
+
+/* Variable font example */
+@font-face {
+  font-family: 'Orbitron Variable';
+  src: url('../fonts/orbitron/Orbitron-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; /* Supports variable weights */
+  font-style: normal;
+}

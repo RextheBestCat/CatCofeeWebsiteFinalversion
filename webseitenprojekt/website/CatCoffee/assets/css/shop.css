@@ -1,0 +1,142 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid_container_shop {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 200px);
+	gap: 10px;
+	justify-content: center;
+	object-position: center;
+	padding: 10px;
+
+}
+
+.grid_box_shop {
+	max-width: 200px;
+	margin: 0;
+	justify-content: left;
+	border-radius: 10px;
+	background: #fff;
+}
+.grid_box_shop:hover {
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.35);
+	scale: 102%;
+	cursor: pointer;
+	transition: 0.16s;
+}
+
+.grid_box_shop_img {
+	width: 180px;
+	height: 180px;
+	margin: 0;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+
+.grid_box_shop_text {
+	padding: 10px;
+
+}
+.grid_box_shop_text p {
+	margin: 0;
+
+}
+/*damn you wierd text hight block thing */
+
+.grid_box_shop_price_and_copy {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, 95px);
+	margin: 0;
+	padding-left: 10px;
+	padding-bottom: 10px;
+
+	object-position: center;
+	justify-items: center;
+}
+.grid_box_shop_price {
+	object-position: center;
+	justify-items: center;
+}
+.grid_box_shop_price p {
+	margin: 0;
+}
+.grid_box_shop_copy_button {
+	object-position: center;
+	justify-items: center;
+}
+.grid_box_shop_copy_button button {
+	margin: 0;
+}
+.grid_box_shop_copy_button:hover {
+	transition: 0.16s;
+}
+.button_shop:hover {
+
+}
+
+/* Formular#################### */
+#grid_form {
+	grid-template-columns: repeat(2, minmax(300px, 1fr))
+}
+.formular_shop {
+	display: block;
+	background-color: #306844;
+	border-radius: 5px;
+	padding: 10px;
+
+	color: white;
+}
+#order_form {
+	padding-left: 30px;
+	padding-bottom: 10px;
+}
+.formular_shop input {
+	display: block;
+	background: #031000;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	padding-bottom: 1.1%;
+}
+.formular_shop select {
+	display: block;
+	background: #031000;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	padding-bottom: 1.1%;
+}
+.formular_shop label {
+	margin-top: 10px;
+}
+.formular_shop button {
+	padding: 10px;
+	background-color: #073e87;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-top: 10px;
+	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.formular_shop button:hover {
+	transform: scale(1.4);
+	transition: 0.26s;
+}
+
+.formular_shop p {
+	padding: 0;
+}
+#Instructions_shop {
+	padding: 50px;
+}
+.formular_shop h4 {
+	line-height: 0;
+	padding-top: 20px;
+}
+
+
+/* ############################ */

@@ -1,0 +1,23 @@
+h2{
+    font-family: Orbitron, sans-serif;
+    text-align: center;
+}
+p{
+    text-align: justify-all;
+    padding:5%;
+}
+
+
+
+
+.aboutimg{
+   max-width: 100%;
+}
+.teamitem{
+    background-color: #ac3247 !important;
+}
+
+#cat_of_the_week{
+    width: 100%;
+    height:auto;
+}

@@ -1,0 +1,105 @@
+.grid_container_Mietzarbeiter{
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	justify-content: center;
+	align-items: center;
+	text-align: justify;
+	line-height: 5dvh;
+	font-family: Verdana, sans-serif;
+	font-weight: lighter;
+    color: #fff;
+
+}
+.grid_row {
+	display: inline-flex;
+	margin: 5px 0;
+}
+.grid_row_element {
+	padding-left: 3%;
+	padding-right: 3%;
+	width: 70%;
+	max-width: 600px;
+
+	justify-content: center;
+	background-color: #306844;
+	height: min-content;
+	border-radius: 5px;
+}
+.grid_row_element_picture {
+	width: 70%;
+	height: auto;
+	max-width: 800px;
+	justify-content: center;
+	border-radius: 5px;
+}
+#bright{
+	background-color: #306844;
+
+}
+@media(max-width: 1370px) {
+	.grid_row {
+		flex-direction: column;
+	}
+	.grid_row_element {
+		width: 94%;
+
+	}
+	.grid_row_element_picture {
+		width: 100%;
+	}
+	.Mietzarbeiter_responsive_image {
+		width: 100%;
+
+	}
+}
+
+.Mietzarbeiter_responsive_image {
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+}
+/*Picture collage layour*/
+h2{
+	color: white;
+	text-align: center;
+	background-color: #1e453e;
+	padding: 5px;
+	font-family: "Orbitron", serif;
+}
+
+.image_container{
+	width: 100%;
+	columns:4;
+	column-gap: 18px;
+}
+
+.image_container .imagebox{
+	max-width: 100%;
+	margin-bottom: 10px;
+	break-inside: avoid;
+}
+
+.image_container .imagebox img{
+	max-width: 100%;
+	border-radius: 15px;
+}
+@media(max-width: 1400px){
+	.image_container{
+		width: calc(100% - 20px);
+		columns:3;
+	}
+}
+
+@media(max-width: 1000px){
+	.image_container{
+		width: calc(100%- 20px);
+		columns:2;
+	}
+}
+@media(max-width: 650px){
+	.image_container{
+		width: calc(100% - 20px);
+		columns:1;
+	}
+}

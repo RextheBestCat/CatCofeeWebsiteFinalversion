@@ -1,0 +1,44 @@
+body {
+    background-color: #182c25 !important;
+    font-size: large;
+    margin: 0 25px;
+
+}
+* li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.grid_container{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr)); /* Max of 3 columns */
+    gap: 15px;
+    justify-content: center;
+}
+/*Here it should switch from the max of 3 to the mathematical max where it can range from 300 px to 1 body widht*/
+@media(max-width:990px){
+    .grid_container{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+}
+
+.grid_column{
+    color: white;
+    background-color: #306844;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    line-height: 2rem;
+}
+
+.grid_column a{
+    text-decoration: none;
+}
+.grid_column p{
+    line-height: 35px;
+    padding: calc(5%);
+    font-family: Verdana, sans-serif;
+ }
+
+
+
