@@ -37,6 +37,7 @@ nav li:first-child{
     background-color: goldenrod !important;
     color:white !important;
     transition: 1.25s ease !important;
+    cursor: pointer;
 }
 .sidebar{
     color: white;
@@ -221,6 +222,7 @@ nav li:first-child{
 .footer ul li a:hover {
     transition: color 0.25s ease-in-out;
     color: #c1ff00;
+    cursor: pointer;
 }
 
 .copyright{
