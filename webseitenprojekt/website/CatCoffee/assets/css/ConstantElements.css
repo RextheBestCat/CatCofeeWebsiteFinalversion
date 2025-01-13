@@ -246,7 +246,7 @@ nav li:first-child{
 }
 
 
-@media(max-width: 650px){
+@media(max-width: 750px){
     .hide_on_mobile{
         display: none;
     }
