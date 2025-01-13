@@ -26,6 +26,10 @@ body {
 	transition: 0.16s;
 }
 
+@media(max-width:690px){
+	grid-template-columns: repeat(2, 200px);
+}
+
 .grid_box_shop_img {
 	width: 180px;
 	height: 180px;
